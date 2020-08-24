@@ -1,0 +1,15 @@
+#exercicio 1
+#Ítalo Fernandes - 180102613
+1)
+a- criar um novo repositório.
+b- criar uma cópia de trabalho em um repositório local
+c- criar, listar, renomear, excluir ramificações com git branch.
+d- Os arquivos do diretório atual serão retornados para suas versões na staged area. Se não houver versão na staged area, serão retornados para suas versões no último commit na branch.
+e- baixa todos os commit do repositorio sem mudar o codigo
+f- busca e baixa conteúdo de repositórios remotos e fazer a atualização imediata ao repositório local
+g- daicionar arquivos
+h- pega todos os arquivos que estão naquele lugar INDEX que o comando add adicionou e cria uma revisão com um número e um comentário, que será vista por todos
+i- enviar conteúdo do repositório local para um repositório remoto
+
+2)git fetch baixa as referências (refs) com nomes ou tags de um ou mais repositórios (caso você tenha outro remote além do origin configurado), junto com os objetos necessários para completá-los. Basicamente ele atualiza as referências locais com relações às remotas, mas não faz o merge com o branch local.
+git pull incorpora mudanças de um repositório remoto para o branch local. É equivalente a git fetch seguido de git merge FETCH_HEAD.
